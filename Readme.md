@@ -1,6 +1,11 @@
 # Logobi des poiscailles (Fishoby)
 
-by Maxime muscle, Raphaël Houbart, Anaëlle Pollart, Diaby Diakite, Hyppolite Valatta & Yslem Essid
+by Anaëlle Pollart, Maxime Jaconneli, Raphaël Houbart, Diaby Diakite, Hyppolite Valatta & Yslem Essid
+
+## Règles du jeu :
+Le jeu est simple, il consiste à attraper le plus de poisson possible. Les poissons apparaissent à droite  de l’écran et se déplacent en suivant le mouvement d’une parabole générée aléatoirement. On 
+commence la partie avec un score de 0. Lorsqu’on attrape un poisson, on gagne 5 points, si l’on rate  un poisson, on perd 5 points. De plus, parmi les poissons se cachent des méduses, si l’on en attrape 
+une par mégarde, on perd 5 points. Pour attraper des poissons, il suffit de cliquer sur eux. Pareil pour les méduses, on les attrape en cliquant dessus. 
 
 # Liste des fichiers
 
@@ -20,12 +25,9 @@ import random
 import math 
 ``` 
 
-
-## Comment jouer :
-
 ### Execution du programme
 
-- Lancer le programme dans un terminal :
+- Lancer le programme via VSCode ou PyCharm ou dans un terminal :
 
 ```python 
 main.py
@@ -33,11 +35,5 @@ main.py
 
 Le paramétrage du jeu débute alors.
 
-## Règles du jeu :
-Le jeu est simple, il consiste à attraper le plus de poisson possible. Les poissons apparaissent à droite 
-de l’écran et se déplacent en suivant le mouvement d’une parabole générée aléatoirement. On 
-commence la partie avec un score de 0. Lorsqu’on attrape un poisson, on gagne 5 points, si l’on rate 
-un poisson, on perd 5 points. De plus, parmi les poissons se cachent des méduses, si l’on en attrape 
-une par mégarde, on perd 5 points. Pour attraper des poissons, il suffit de cliquer sur eux. Pareil pour 
-les méduses, on les attrape en cliquant dessus. 
+
 
